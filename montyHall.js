@@ -35,8 +35,8 @@ function montyhall() {
   }
 
   //console.log -> winning/losing %
-  console.log("# switch wins: " + switchWin + " " + "winning %: " + (switchWin/1000)*100 + "%" +
-   "# stay wins: " + stayWin + " " + "winning %: " + (stayWin/1000)*100 + "%");
+  console.log("switch strategy: " + "winning percentage: " + (switchWin/1000)*100 + "% | no-switch strategy: "+ "winning percentage: " + (stayWin/1000)*100 + "%");
+
 }
 
 //P(W) = 2/3  (if initial pick is wrong, always switch -> always WIN )
