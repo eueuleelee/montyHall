@@ -39,6 +39,8 @@ function montyhall() {
 
 }
 
+//notes on Khan Academy:
+//switch strategy:
 //P(W) = 2/3  (if initial pick is wrong, always switch -> always WIN )
 // (there is 2/3 chance that u will pick wrong at first. then switch, then win)
 //P(L) = 1/3 (if initial pick is right (1/3 chance to pick right initially), then switch, then lose)
